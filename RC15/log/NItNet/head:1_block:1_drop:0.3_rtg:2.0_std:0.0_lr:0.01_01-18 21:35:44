@@ -1,0 +1,1581 @@
+WARNING:tensorflow:From /Users/xin/Documents/RL4REC/RC15/NextItNet_PRL.py:141: The name tf.random_normal is deprecated. Please use tf.random.normal instead.
+
+WARNING:tensorflow:From /Users/xin/Documents/RL4REC/RC15/NextItNet_PRL.py:57: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From /Users/xin/Documents/RL4REC/RC15/NextItNet_PRL.py:68: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+WARNING:tensorflow:From /Users/xin/Documents/RL4REC/RC15/NextItNetModules.py:11: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+WARNING:tensorflow:From /Users/xin/Documents/RL4REC/RC15/NextItNetModules.py:38: The name tf.get_variable is deprecated. Please use tf.compat.v1.get_variable instead.
+
+WARNING:tensorflow:From /Users/xin/miniconda3/envs/tf-1.15/lib/python3.7/site-packages/tensorflow_core/python/util/dispatch.py:180: calling expand_dims (from tensorflow.python.ops.array_ops) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+Use the `axis` argument instead
+WARNING:tensorflow:From /Users/xin/Documents/RL4REC/RC15/NextItNet_PRL.py:103: dropout (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.dropout instead.
+WARNING:tensorflow:From /Users/xin/miniconda3/envs/tf-1.15/lib/python3.7/site-packages/tensorflow_core/python/layers/core.py:271: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.
+WARNING:tensorflow:From /Users/xin/Documents/RL4REC/RC15/SASRecModules.py:142: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.
+WARNING:tensorflow:From /Users/xin/Documents/RL4REC/RC15/SASRecModules.py:163: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+WARNING:tensorflow:From /Users/xin/Documents/RL4REC/RC15/NextItNet_PRL.py:137: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+WARNING:tensorflow:From /Users/xin/Documents/RL4REC/RC15/NextItNet_PRL.py:261: The name tf.train.Saver is deprecated. Please use tf.compat.v1.train.Saver instead.
+
+WARNING:tensorflow:From /Users/xin/Documents/RL4REC/RC15/NextItNet_PRL.py:264: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+WARNING:tensorflow:From /Users/xin/Documents/RL4REC/RC15/NextItNet_PRL.py:266: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+INFO:root:the loss in 200th batch is: 2.076469
+INFO:root:the loss in 400th batch is: 1.949557
+INFO:root:the loss in 600th batch is: 1.926070
+INFO:root:the loss in 800th batch is: 1.908595
+INFO:root:the loss in 1000th batch is: 1.861584
+INFO:root:the loss in 1200th batch is: 1.578255
+INFO:root:the loss in 1400th batch is: 1.629735
+INFO:root:the loss in 1600th batch is: 1.499240
+INFO:root:the loss in 1800th batch is: 1.511523
+INFO:root:the loss in 2000th batch is: 1.444465
+INFO:root:#############################################################
+INFO:root:total clicks: 108416, total purchase:4245
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 1: 2353.800000
+INFO:root:clicks hr ndcg @ 1 : 0.083466, 0.083466
+INFO:root:purchase hr and ndcg @1 : 0.128151, 0.128151
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 5: 6435.000000
+INFO:root:clicks hr ndcg @ 5 : 0.234467, 0.161310
+INFO:root:purchase hr and ndcg @5 : 0.318257, 0.226361
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 10: 8507.000000
+INFO:root:clicks hr ndcg @ 10 : 0.309087, 0.185490
+INFO:root:purchase hr and ndcg @10 : 0.425206, 0.260982
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 20: 10265.400000
+INFO:root:clicks hr ndcg @ 20 : 0.372888, 0.201679
+INFO:root:purchase hr and ndcg @20 : 0.513545, 0.283430
+INFO:root:#############################################################
+INFO:root:the loss in 2200th batch is: 1.531286
+INFO:root:the loss in 2400th batch is: 1.429143
+INFO:root:the loss in 2600th batch is: 1.446388
+INFO:root:the loss in 2800th batch is: 1.510278
+INFO:root:the loss in 3000th batch is: 1.294890
+INFO:root:the loss in 3200th batch is: 1.351642
+INFO:root:the loss in 3400th batch is: 1.329993
+INFO:root:the loss in 3600th batch is: 1.416391
+INFO:root:the loss in 3800th batch is: 1.403997
+INFO:root:the loss in 4000th batch is: 1.362072
+INFO:root:#############################################################
+INFO:root:total clicks: 108416, total purchase:4245
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 1: 2928.400000
+INFO:root:clicks hr ndcg @ 1 : 0.105861, 0.105861
+INFO:root:purchase hr and ndcg @1 : 0.149117, 0.149117
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 5: 7904.000000
+INFO:root:clicks hr ndcg @ 5 : 0.290040, 0.200725
+INFO:root:purchase hr and ndcg @5 : 0.380448, 0.269130
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 10: 10242.000000
+INFO:root:clicks hr ndcg @ 10 : 0.377158, 0.228986
+INFO:root:purchase hr and ndcg @10 : 0.486219, 0.303523
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 20: 12166.600000
+INFO:root:clicks hr ndcg @ 20 : 0.450515, 0.247564
+INFO:root:purchase hr and ndcg @20 : 0.564900, 0.323505
+INFO:root:#############################################################
+INFO:root:the loss in 4200th batch is: 1.418232
+INFO:root:the loss in 4400th batch is: 1.352962
+INFO:root:the loss in 4600th batch is: 1.311882
+INFO:root:the loss in 4800th batch is: 1.308089
+INFO:root:the loss in 5000th batch is: 1.175254
+INFO:root:the loss in 5200th batch is: 1.278980
+INFO:root:the loss in 5400th batch is: 1.243669
+INFO:root:the loss in 5600th batch is: 1.257200
+INFO:root:the loss in 5800th batch is: 1.384540
+INFO:root:the loss in 6000th batch is: 1.136585
+INFO:root:#############################################################
+INFO:root:total clicks: 108416, total purchase:4245
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 1: 3079.000000
+INFO:root:clicks hr ndcg @ 1 : 0.109440, 0.109440
+INFO:root:purchase hr and ndcg @1 : 0.166313, 0.166313
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 5: 8287.200000
+INFO:root:clicks hr ndcg @ 5 : 0.304900, 0.210573
+INFO:root:purchase hr and ndcg @5 : 0.394817, 0.283913
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 10: 10750.000000
+INFO:root:clicks hr ndcg @ 10 : 0.396989, 0.240470
+INFO:root:purchase hr and ndcg @10 : 0.504594, 0.319686
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 20: 12783.200000
+INFO:root:clicks hr ndcg @ 20 : 0.472679, 0.259685
+INFO:root:purchase hr and ndcg @20 : 0.596938, 0.343103
+INFO:root:#############################################################
+INFO:root:the loss in 6200th batch is: 1.105548
+INFO:root:the loss in 6400th batch is: 1.346466
+INFO:root:the loss in 6600th batch is: 1.298763
+INFO:root:the loss in 6800th batch is: 1.165573
+INFO:root:the loss in 7000th batch is: 1.297955
+INFO:root:the loss in 7200th batch is: 1.125550
+INFO:root:the loss in 7400th batch is: 1.280156
+INFO:root:the loss in 7600th batch is: 1.238695
+INFO:root:the loss in 7800th batch is: 1.255528
+INFO:root:the loss in 8000th batch is: 1.217507
+INFO:root:#############################################################
+INFO:root:total clicks: 108416, total purchase:4245
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 1: 3172.800000
+INFO:root:clicks hr ndcg @ 1 : 0.113581, 0.113581
+INFO:root:purchase hr and ndcg @1 : 0.167256, 0.167256
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 5: 8531.800000
+INFO:root:clicks hr ndcg @ 5 : 0.311845, 0.215939
+INFO:root:purchase hr and ndcg @5 : 0.416961, 0.296735
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 10: 11002.400000
+INFO:root:clicks hr ndcg @ 10 : 0.404894, 0.246165
+INFO:root:purchase hr and ndcg @10 : 0.523675, 0.331595
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 20: 13059.400000
+INFO:root:clicks hr ndcg @ 20 : 0.483111, 0.266017
+INFO:root:purchase hr and ndcg @20 : 0.608716, 0.353101
+INFO:root:#############################################################
+INFO:root:the loss in 8200th batch is: 1.158706
+INFO:root:the loss in 8400th batch is: 1.151005
+INFO:root:the loss in 8600th batch is: 1.383650
+INFO:root:the loss in 8800th batch is: 1.218780
+INFO:root:the loss in 9000th batch is: 1.221568
+INFO:root:the loss in 9200th batch is: 1.183921
+INFO:root:the loss in 9400th batch is: 1.330440
+INFO:root:the loss in 9600th batch is: 1.124443
+INFO:root:the loss in 9800th batch is: 1.141502
+INFO:root:the loss in 10000th batch is: 1.204389
+INFO:root:#############################################################
+INFO:root:total clicks: 108416, total purchase:4245
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 1: 3157.800000
+INFO:root:clicks hr ndcg @ 1 : 0.112843, 0.112843
+INFO:root:purchase hr and ndcg @1 : 0.167491, 0.167491
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 5: 8542.200000
+INFO:root:clicks hr ndcg @ 5 : 0.315092, 0.217072
+INFO:root:purchase hr and ndcg @5 : 0.402827, 0.288985
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 10: 11123.200000
+INFO:root:clicks hr ndcg @ 10 : 0.412310, 0.248665
+INFO:root:purchase hr and ndcg @10 : 0.514252, 0.325317
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 20: 13197.400000
+INFO:root:clicks hr ndcg @ 20 : 0.489845, 0.268353
+INFO:root:purchase hr and ndcg @20 : 0.606832, 0.348716
+INFO:root:#############################################################
+INFO:root:the loss in 10200th batch is: 1.205410
+INFO:root:the loss in 10400th batch is: 1.248527
+INFO:root:the loss in 10600th batch is: 1.191263
+INFO:root:the loss in 10800th batch is: 1.077131
+INFO:root:the loss in 11000th batch is: 1.149669
+INFO:root:the loss in 11200th batch is: 1.158038
+INFO:root:the loss in 11400th batch is: 1.173601
+INFO:root:the loss in 11600th batch is: 1.230261
+INFO:root:the loss in 11800th batch is: 1.126613
+INFO:root:the loss in 12000th batch is: 1.170233
+INFO:root:#############################################################
+INFO:root:total clicks: 108416, total purchase:4245
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 1: 3185.600000
+INFO:root:clicks hr ndcg @ 1 : 0.114402, 0.114402
+INFO:root:purchase hr and ndcg @1 : 0.166078, 0.166078
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 5: 8731.000000
+INFO:root:clicks hr ndcg @ 5 : 0.319464, 0.220117
+INFO:root:purchase hr and ndcg @5 : 0.424971, 0.301312
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 10: 11262.000000
+INFO:root:clicks hr ndcg @ 10 : 0.415529, 0.251319
+INFO:root:purchase hr and ndcg @10 : 0.530506, 0.335558
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 20: 13318.200000
+INFO:root:clicks hr ndcg @ 20 : 0.494401, 0.271325
+INFO:root:purchase hr and ndcg @20 : 0.612014, 0.356331
+INFO:root:#############################################################
+INFO:root:the loss in 12200th batch is: 1.148642
+INFO:root:the loss in 12400th batch is: 1.212815
+INFO:root:the loss in 12600th batch is: 1.176433
+INFO:root:the loss in 12800th batch is: 1.178258
+INFO:root:the loss in 13000th batch is: 1.158645
+INFO:root:the loss in 13200th batch is: 1.133072
+INFO:root:the loss in 13400th batch is: 1.227598
+INFO:root:the loss in 13600th batch is: 1.036295
+INFO:root:the loss in 13800th batch is: 1.152228
+INFO:root:the loss in 14000th batch is: 1.132015
+INFO:root:#############################################################
+INFO:root:total clicks: 108416, total purchase:4245
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 1: 3281.600000
+INFO:root:clicks hr ndcg @ 1 : 0.117815, 0.117815
+INFO:root:purchase hr and ndcg @1 : 0.171260, 0.171260
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 5: 8743.800000
+INFO:root:clicks hr ndcg @ 5 : 0.320608, 0.222609
+INFO:root:purchase hr and ndcg @5 : 0.422144, 0.300811
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 10: 11308.200000
+INFO:root:clicks hr ndcg @ 10 : 0.416922, 0.253848
+INFO:root:purchase hr and ndcg @10 : 0.534276, 0.337399
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 20: 13374.600000
+INFO:root:clicks hr ndcg @ 20 : 0.495434, 0.273822
+INFO:root:purchase hr and ndcg @20 : 0.620024, 0.359268
+INFO:root:#############################################################
+INFO:root:the loss in 14200th batch is: 1.159309
+INFO:root:the loss in 14400th batch is: 1.145335
+INFO:root:the loss in 14600th batch is: 1.207874
+INFO:root:the loss in 14800th batch is: 1.183359
+INFO:root:the loss in 15000th batch is: 1.088939
+INFO:root:the loss in 15200th batch is: 1.143322
+INFO:root:the loss in 15400th batch is: 1.169676
+INFO:root:the loss in 15600th batch is: 1.302160
+INFO:root:the loss in 15800th batch is: 1.100327
+INFO:root:the loss in 16000th batch is: 1.172124
+INFO:root:#############################################################
+INFO:root:total clicks: 108416, total purchase:4245
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 1: 3259.000000
+INFO:root:clicks hr ndcg @ 1 : 0.116311, 0.116311
+INFO:root:purchase hr and ndcg @1 : 0.173616, 0.173616
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 5: 8808.600000
+INFO:root:clicks hr ndcg @ 5 : 0.323181, 0.223241
+INFO:root:purchase hr and ndcg @5 : 0.424264, 0.303699
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 10: 11362.000000
+INFO:root:clicks hr ndcg @ 10 : 0.419172, 0.254422
+INFO:root:purchase hr and ndcg @10 : 0.535453, 0.339858
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 20: 13447.800000
+INFO:root:clicks hr ndcg @ 20 : 0.498902, 0.274632
+INFO:root:purchase hr and ndcg @20 : 0.619552, 0.361351
+INFO:root:#############################################################
+INFO:root:the loss in 16200th batch is: 1.123253
+INFO:root:the loss in 16400th batch is: 1.205828
+INFO:root:the loss in 16600th batch is: 1.079077
+INFO:root:the loss in 16800th batch is: 1.083863
+INFO:root:the loss in 17000th batch is: 1.201618
+INFO:root:the loss in 17200th batch is: 1.153560
+INFO:root:the loss in 17400th batch is: 1.071988
+INFO:root:the loss in 17600th batch is: 1.019152
+INFO:root:the loss in 17800th batch is: 1.144461
+INFO:root:the loss in 18000th batch is: 1.108898
+INFO:root:#############################################################
+INFO:root:total clicks: 108416, total purchase:4245
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 1: 3269.200000
+INFO:root:clicks hr ndcg @ 1 : 0.117058, 0.117058
+INFO:root:purchase hr and ndcg @1 : 0.172203, 0.172203
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 5: 8795.800000
+INFO:root:clicks hr ndcg @ 5 : 0.323513, 0.223699
+INFO:root:purchase hr and ndcg @5 : 0.419552, 0.300024
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 10: 11370.000000
+INFO:root:clicks hr ndcg @ 10 : 0.419680, 0.254959
+INFO:root:purchase hr and ndcg @10 : 0.534747, 0.337346
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 20: 13483.000000
+INFO:root:clicks hr ndcg @ 20 : 0.500018, 0.275360
+INFO:root:purchase hr and ndcg @20 : 0.622144, 0.359602
+INFO:root:#############################################################
+INFO:root:the loss in 18200th batch is: 1.033035
+INFO:root:the loss in 18400th batch is: 1.114518
+INFO:root:the loss in 18600th batch is: 1.149045
+INFO:root:the loss in 18800th batch is: 1.180000
+INFO:root:the loss in 19000th batch is: 1.151447
+INFO:root:the loss in 19200th batch is: 1.162849
+INFO:root:the loss in 19400th batch is: 1.063378
+INFO:root:the loss in 19600th batch is: 1.134599
+INFO:root:the loss in 19800th batch is: 1.177120
+INFO:root:the loss in 20000th batch is: 1.117394
+INFO:root:#############################################################
+INFO:root:total clicks: 108416, total purchase:4245
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 1: 3337.000000
+INFO:root:clicks hr ndcg @ 1 : 0.119862, 0.119862
+INFO:root:purchase hr and ndcg @1 : 0.173852, 0.173852
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 5: 8861.200000
+INFO:root:clicks hr ndcg @ 5 : 0.325330, 0.226134
+INFO:root:purchase hr and ndcg @5 : 0.425677, 0.303362
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 10: 11363.000000
+INFO:root:clicks hr ndcg @ 10 : 0.420602, 0.257024
+INFO:root:purchase hr and ndcg @10 : 0.528386, 0.336944
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 20: 13474.000000
+INFO:root:clicks hr ndcg @ 20 : 0.499926, 0.277143
+INFO:root:purchase hr and ndcg @20 : 0.620495, 0.360331
+INFO:root:#############################################################
+INFO:root:the loss in 20200th batch is: 1.103560
+INFO:root:the loss in 20400th batch is: 1.123471
+INFO:root:the loss in 20600th batch is: 1.056454
+INFO:root:the loss in 20800th batch is: 1.260066
+INFO:root:the loss in 21000th batch is: 1.075654
+INFO:root:the loss in 21200th batch is: 1.125305
+INFO:root:the loss in 21400th batch is: 1.084916
+INFO:root:the loss in 21600th batch is: 1.171279
+INFO:root:the loss in 21800th batch is: 1.126036
+INFO:root:the loss in 22000th batch is: 1.185899
+INFO:root:#############################################################
+INFO:root:total clicks: 108416, total purchase:4245
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 1: 3325.000000
+INFO:root:clicks hr ndcg @ 1 : 0.119263, 0.119263
+INFO:root:purchase hr and ndcg @1 : 0.174087, 0.174087
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 5: 8847.600000
+INFO:root:clicks hr ndcg @ 5 : 0.325441, 0.225835
+INFO:root:purchase hr and ndcg @5 : 0.421908, 0.302259
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 10: 11424.600000
+INFO:root:clicks hr ndcg @ 10 : 0.421783, 0.257095
+INFO:root:purchase hr and ndcg @10 : 0.536867, 0.339761
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 20: 13503.600000
+INFO:root:clicks hr ndcg @ 20 : 0.500415, 0.277059
+INFO:root:purchase hr and ndcg @20 : 0.624971, 0.362180
+INFO:root:#############################################################
+INFO:root:the loss in 22200th batch is: 1.148987
+INFO:root:the loss in 22400th batch is: 1.155843
+INFO:root:the loss in 22600th batch is: 1.075123
+INFO:root:the loss in 22800th batch is: 1.130119
+INFO:root:the loss in 23000th batch is: 1.129689
+INFO:root:the loss in 23200th batch is: 1.133525
+INFO:root:the loss in 23400th batch is: 1.178354
+INFO:root:the loss in 23600th batch is: 1.023136
+INFO:root:the loss in 23800th batch is: 1.088768
+INFO:root:the loss in 24000th batch is: 1.012368
+INFO:root:#############################################################
+INFO:root:total clicks: 108416, total purchase:4245
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 1: 3319.600000
+INFO:root:clicks hr ndcg @ 1 : 0.119198, 0.119198
+INFO:root:purchase hr and ndcg @1 : 0.173145, 0.173145
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 5: 8876.200000
+INFO:root:clicks hr ndcg @ 5 : 0.324546, 0.224849
+INFO:root:purchase hr and ndcg @5 : 0.433216, 0.312026
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 10: 11437.000000
+INFO:root:clicks hr ndcg @ 10 : 0.420694, 0.256056
+INFO:root:purchase hr and ndcg @10 : 0.545347, 0.348316
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 20: 13486.600000
+INFO:root:clicks hr ndcg @ 20 : 0.499539, 0.276052
+INFO:root:purchase hr and ndcg @20 : 0.625442, 0.368735
+INFO:root:#############################################################
+INFO:root:the loss in 24200th batch is: 1.162174
+INFO:root:the loss in 24400th batch is: 1.074403
+INFO:root:the loss in 24600th batch is: 1.066535
+INFO:root:the loss in 24800th batch is: 0.989796
+INFO:root:the loss in 25000th batch is: 1.045201
+INFO:root:the loss in 25200th batch is: 1.133822
+INFO:root:the loss in 25400th batch is: 1.117525
+INFO:root:the loss in 25600th batch is: 1.100496
+INFO:root:the loss in 25800th batch is: 1.153144
+INFO:root:the loss in 26000th batch is: 1.200718
+INFO:root:#############################################################
+INFO:root:total clicks: 108416, total purchase:4245
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 1: 3257.800000
+INFO:root:clicks hr ndcg @ 1 : 0.116302, 0.116302
+INFO:root:purchase hr and ndcg @1 : 0.173380, 0.173380
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 5: 8849.000000
+INFO:root:clicks hr ndcg @ 5 : 0.324214, 0.223940
+INFO:root:purchase hr and ndcg @5 : 0.428504, 0.306446
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 10: 11344.600000
+INFO:root:clicks hr ndcg @ 10 : 0.419431, 0.254814
+INFO:root:purchase hr and ndcg @10 : 0.530035, 0.339393
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 20: 13469.200000
+INFO:root:clicks hr ndcg @ 20 : 0.498736, 0.274941
+INFO:root:purchase hr and ndcg @20 : 0.625442, 0.363442
+INFO:root:#############################################################
+INFO:root:the loss in 26200th batch is: 1.128002
+INFO:root:the loss in 26400th batch is: 1.208378
+INFO:root:the loss in 26600th batch is: 1.077525
+INFO:root:the loss in 26800th batch is: 1.066593
+INFO:root:the loss in 27000th batch is: 1.145690
+INFO:root:the loss in 27200th batch is: 1.164311
+INFO:root:the loss in 27400th batch is: 1.086058
+INFO:root:the loss in 27600th batch is: 1.097509
+INFO:root:the loss in 27800th batch is: 1.166124
+INFO:root:the loss in 28000th batch is: 1.148717
+INFO:root:#############################################################
+INFO:root:total clicks: 108416, total purchase:4245
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 1: 3355.800000
+INFO:root:clicks hr ndcg @ 1 : 0.119392, 0.119392
+INFO:root:purchase hr and ndcg @1 : 0.180683, 0.180683
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 5: 8902.800000
+INFO:root:clicks hr ndcg @ 5 : 0.325266, 0.225692
+INFO:root:purchase hr and ndcg @5 : 0.435807, 0.313228
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 10: 11409.600000
+INFO:root:clicks hr ndcg @ 10 : 0.420169, 0.256518
+INFO:root:purchase hr and ndcg @10 : 0.541578, 0.347571
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 20: 13527.600000
+INFO:root:clicks hr ndcg @ 20 : 0.501153, 0.277077
+INFO:root:purchase hr and ndcg @20 : 0.626855, 0.369225
+INFO:root:#############################################################
+INFO:root:the loss in 28200th batch is: 1.063115
+INFO:root:the loss in 28400th batch is: 1.080643
+INFO:root:the loss in 28600th batch is: 1.078895
+INFO:root:the loss in 28800th batch is: 0.971734
+INFO:root:the loss in 29000th batch is: 1.053929
+INFO:root:the loss in 29200th batch is: 1.171337
+INFO:root:the loss in 29400th batch is: 1.065812
+INFO:root:the loss in 29600th batch is: 1.139182
+INFO:root:the loss in 29800th batch is: 1.229888
+INFO:root:the loss in 30000th batch is: 1.055783
+INFO:root:#############################################################
+INFO:root:total clicks: 108416, total purchase:4245
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 1: 3341.800000
+INFO:root:clicks hr ndcg @ 1 : 0.118839, 0.118839
+INFO:root:purchase hr and ndcg @1 : 0.180212, 0.180212
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 5: 8886.400000
+INFO:root:clicks hr ndcg @ 5 : 0.324786, 0.225265
+INFO:root:purchase hr and ndcg @5 : 0.434393, 0.313247
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 10: 11415.200000
+INFO:root:clicks hr ndcg @ 10 : 0.420704, 0.256438
+INFO:root:purchase hr and ndcg @10 : 0.540165, 0.347816
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 20: 13555.200000
+INFO:root:clicks hr ndcg @ 20 : 0.501365, 0.276932
+INFO:root:purchase hr and ndcg @20 : 0.632273, 0.371196
+INFO:root:#############################################################
+INFO:root:the loss in 30200th batch is: 1.162135
+INFO:root:the loss in 30400th batch is: 1.098965
+INFO:root:the loss in 30600th batch is: 1.095108
+INFO:root:the loss in 30800th batch is: 1.123932
+INFO:root:the loss in 31000th batch is: 1.180770
+INFO:root:the loss in 31200th batch is: 0.974225
+INFO:root:the loss in 31400th batch is: 1.083540
+INFO:root:the loss in 31600th batch is: 1.167301
+INFO:root:the loss in 31800th batch is: 1.090531
+INFO:root:the loss in 32000th batch is: 1.075850
+INFO:root:#############################################################
+INFO:root:total clicks: 108416, total purchase:4245
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 1: 3361.000000
+INFO:root:clicks hr ndcg @ 1 : 0.119862, 0.119862
+INFO:root:purchase hr and ndcg @1 : 0.179505, 0.179505
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 5: 8863.200000
+INFO:root:clicks hr ndcg @ 5 : 0.324546, 0.225575
+INFO:root:purchase hr and ndcg @5 : 0.430153, 0.309998
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 10: 11397.600000
+INFO:root:clicks hr ndcg @ 10 : 0.420307, 0.256694
+INFO:root:purchase hr and ndcg @10 : 0.538045, 0.345032
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 20: 13523.400000
+INFO:root:clicks hr ndcg @ 20 : 0.500590, 0.277069
+INFO:root:purchase hr and ndcg @20 : 0.628740, 0.368085
+INFO:root:#############################################################
+INFO:root:the loss in 32200th batch is: 1.023076
+INFO:root:the loss in 32400th batch is: 1.099635
+INFO:root:the loss in 32600th batch is: 1.095613
+INFO:root:the loss in 32800th batch is: 1.123662
+INFO:root:the loss in 33000th batch is: 1.163285
+INFO:root:the loss in 33200th batch is: 1.147539
+INFO:root:the loss in 33400th batch is: 1.085105
+INFO:root:the loss in 33600th batch is: 1.074929
+INFO:root:the loss in 33800th batch is: 1.084467
+INFO:root:the loss in 34000th batch is: 1.082748
+INFO:root:#############################################################
+INFO:root:total clicks: 108416, total purchase:4245
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 1: 3405.000000
+INFO:root:clicks hr ndcg @ 1 : 0.120416, 0.120416
+INFO:root:purchase hr and ndcg @1 : 0.187044, 0.187044
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 5: 8900.200000
+INFO:root:clicks hr ndcg @ 5 : 0.326068, 0.226496
+INFO:root:purchase hr and ndcg @5 : 0.431095, 0.313069
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 10: 11418.600000
+INFO:root:clicks hr ndcg @ 10 : 0.421045, 0.257309
+INFO:root:purchase hr and ndcg @10 : 0.539223, 0.348370
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 20: 13460.600000
+INFO:root:clicks hr ndcg @ 20 : 0.498616, 0.276988
+INFO:root:purchase hr and ndcg @20 : 0.624028, 0.369894
+INFO:root:#############################################################
+INFO:root:the loss in 34200th batch is: 1.106641
+INFO:root:the loss in 34400th batch is: 1.050546
+INFO:root:the loss in 34600th batch is: 1.032156
+INFO:root:the loss in 34800th batch is: 1.022073
+INFO:root:the loss in 35000th batch is: 1.075900
+INFO:root:the loss in 35200th batch is: 1.019430
+INFO:root:the loss in 35400th batch is: 1.178393
+INFO:root:the loss in 35600th batch is: 1.097516
+INFO:root:the loss in 35800th batch is: 1.161362
+INFO:root:the loss in 36000th batch is: 1.114456
+INFO:root:#############################################################
+INFO:root:total clicks: 108416, total purchase:4245
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 1: 3331.000000
+INFO:root:clicks hr ndcg @ 1 : 0.118202, 0.118202
+INFO:root:purchase hr and ndcg @1 : 0.180919, 0.180919
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 5: 8911.600000
+INFO:root:clicks hr ndcg @ 5 : 0.325164, 0.225313
+INFO:root:purchase hr and ndcg @5 : 0.438398, 0.314481
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 10: 11453.200000
+INFO:root:clicks hr ndcg @ 10 : 0.421810, 0.256705
+INFO:root:purchase hr and ndcg @10 : 0.543463, 0.348663
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 20: 13524.000000
+INFO:root:clicks hr ndcg @ 20 : 0.500157, 0.276608
+INFO:root:purchase hr and ndcg @20 : 0.631095, 0.370925
+INFO:root:#############################################################
+INFO:root:the loss in 36200th batch is: 1.093774
+INFO:root:the loss in 36400th batch is: 1.026599
+INFO:root:the loss in 36600th batch is: 1.133891
+INFO:root:the loss in 36800th batch is: 1.051041
+INFO:root:the loss in 37000th batch is: 1.051284
+INFO:root:the loss in 37200th batch is: 1.065790
+INFO:root:the loss in 37400th batch is: 1.143164
+INFO:root:the loss in 37600th batch is: 1.169754
+INFO:root:the loss in 37800th batch is: 1.063080
+INFO:root:the loss in 38000th batch is: 1.073704
+INFO:root:#############################################################
+INFO:root:total clicks: 108416, total purchase:4245
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 1: 3438.800000
+INFO:root:clicks hr ndcg @ 1 : 0.120591, 0.120591
+INFO:root:purchase hr and ndcg @1 : 0.194111, 0.194111
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 5: 8897.200000
+INFO:root:clicks hr ndcg @ 5 : 0.324638, 0.226025
+INFO:root:purchase hr and ndcg @5 : 0.437691, 0.320183
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 10: 11429.400000
+INFO:root:clicks hr ndcg @ 10 : 0.420851, 0.257298
+INFO:root:purchase hr and ndcg @10 : 0.542756, 0.354402
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 20: 13516.400000
+INFO:root:clicks hr ndcg @ 20 : 0.500913, 0.277630
+INFO:root:purchase hr and ndcg @20 : 0.625442, 0.375489
+INFO:root:#############################################################
+INFO:root:the loss in 38200th batch is: 1.000159
+INFO:root:the loss in 38400th batch is: 1.069390
+INFO:root:the loss in 38600th batch is: 1.194899
+INFO:root:the loss in 38800th batch is: 1.086136
+INFO:root:the loss in 39000th batch is: 1.085510
+INFO:root:the loss in 39200th batch is: 1.031701
+INFO:root:the loss in 39400th batch is: 1.105379
+INFO:root:the loss in 39600th batch is: 1.134071
+INFO:root:the loss in 39800th batch is: 1.099102
+INFO:root:the loss in 40000th batch is: 1.130080
+INFO:root:#############################################################
+INFO:root:total clicks: 108416, total purchase:4245
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 1: 3401.400000
+INFO:root:clicks hr ndcg @ 1 : 0.120388, 0.120388
+INFO:root:purchase hr and ndcg @1 : 0.186337, 0.186337
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 5: 8940.000000
+INFO:root:clicks hr ndcg @ 5 : 0.326843, 0.227058
+INFO:root:purchase hr and ndcg @5 : 0.436514, 0.316308
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 10: 11418.800000
+INFO:root:clicks hr ndcg @ 10 : 0.420962, 0.257619
+INFO:root:purchase hr and ndcg @10 : 0.539694, 0.350000
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 20: 13508.000000
+INFO:root:clicks hr ndcg @ 20 : 0.500157, 0.277701
+INFO:root:purchase hr and ndcg @20 : 0.627326, 0.372241
+INFO:root:#############################################################
+INFO:root:the loss in 40200th batch is: 1.005668
+INFO:root:the loss in 40400th batch is: 1.111875
+INFO:root:the loss in 40600th batch is: 1.082289
+INFO:root:the loss in 40800th batch is: 1.131933
+INFO:root:the loss in 41000th batch is: 1.125366
+INFO:root:the loss in 41200th batch is: 1.057788
+INFO:root:the loss in 41400th batch is: 1.148382
+INFO:root:the loss in 41600th batch is: 1.071625
+INFO:root:the loss in 41800th batch is: 1.112218
+INFO:root:the loss in 42000th batch is: 1.104797
+INFO:root:#############################################################
+INFO:root:total clicks: 108416, total purchase:4245
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 1: 3384.000000
+INFO:root:clicks hr ndcg @ 1 : 0.120462, 0.120462
+INFO:root:purchase hr and ndcg @1 : 0.181861, 0.181861
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 5: 8939.600000
+INFO:root:clicks hr ndcg @ 5 : 0.326363, 0.227044
+INFO:root:purchase hr and ndcg @5 : 0.438869, 0.315613
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 10: 11431.200000
+INFO:root:clicks hr ndcg @ 10 : 0.421441, 0.257912
+INFO:root:purchase hr and ndcg @10 : 0.540165, 0.348445
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 20: 13547.800000
+INFO:root:clicks hr ndcg @ 20 : 0.501531, 0.278237
+INFO:root:purchase hr and ndcg @20 : 0.629682, 0.371230
+INFO:root:#############################################################
+INFO:root:the loss in 42200th batch is: 1.035244
+INFO:root:the loss in 42400th batch is: 1.044383
+INFO:root:the loss in 42600th batch is: 1.048349
+INFO:root:the loss in 42800th batch is: 1.012486
+INFO:root:the loss in 43000th batch is: 1.037501
+INFO:root:the loss in 43200th batch is: 1.101886
+INFO:root:the loss in 43400th batch is: 1.077871
+INFO:root:the loss in 43600th batch is: 1.005447
+INFO:root:the loss in 43800th batch is: 0.957429
+INFO:root:the loss in 44000th batch is: 1.168158
+INFO:root:#############################################################
+INFO:root:total clicks: 108416, total purchase:4245
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 1: 3373.800000
+INFO:root:clicks hr ndcg @ 1 : 0.120038, 0.120038
+INFO:root:purchase hr and ndcg @1 : 0.181625, 0.181625
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 5: 8897.200000
+INFO:root:clicks hr ndcg @ 5 : 0.325745, 0.225976
+INFO:root:purchase hr and ndcg @5 : 0.432038, 0.311786
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 10: 11439.800000
+INFO:root:clicks hr ndcg @ 10 : 0.421561, 0.257073
+INFO:root:purchase hr and ndcg @10 : 0.541578, 0.347424
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 20: 13524.600000
+INFO:root:clicks hr ndcg @ 20 : 0.500876, 0.277191
+INFO:root:purchase hr and ndcg @20 : 0.627562, 0.369185
+INFO:root:#############################################################
+INFO:root:the loss in 44200th batch is: 1.096700
+INFO:root:the loss in 44400th batch is: 1.041489
+INFO:root:the loss in 44600th batch is: 1.143625
+INFO:root:the loss in 44800th batch is: 0.998346
+INFO:root:the loss in 45000th batch is: 1.088602
+INFO:root:the loss in 45200th batch is: 1.055831
+INFO:root:the loss in 45400th batch is: 1.053345
+INFO:root:the loss in 45600th batch is: 1.012494
+INFO:root:the loss in 45800th batch is: 1.191535
+INFO:root:the loss in 46000th batch is: 1.057864
+INFO:root:#############################################################
+INFO:root:total clicks: 108416, total purchase:4245
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 1: 3354.200000
+INFO:root:clicks hr ndcg @ 1 : 0.119134, 0.119134
+INFO:root:purchase hr and ndcg @1 : 0.181625, 0.181625
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 5: 8898.800000
+INFO:root:clicks hr ndcg @ 5 : 0.324482, 0.225386
+INFO:root:purchase hr and ndcg @5 : 0.438869, 0.315085
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 10: 11456.400000
+INFO:root:clicks hr ndcg @ 10 : 0.421681, 0.256946
+INFO:root:purchase hr and ndcg @10 : 0.544876, 0.349652
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 20: 13499.000000
+INFO:root:clicks hr ndcg @ 20 : 0.499742, 0.276756
+INFO:root:purchase hr and ndcg @20 : 0.627326, 0.370621
+INFO:root:#############################################################
+INFO:root:the loss in 46200th batch is: 1.073303
+INFO:root:the loss in 46400th batch is: 1.076929
+INFO:root:the loss in 46600th batch is: 1.092111
+INFO:root:the loss in 46800th batch is: 1.120183
+INFO:root:the loss in 47000th batch is: 1.066914
+INFO:root:the loss in 47200th batch is: 1.105660
+INFO:root:the loss in 47400th batch is: 1.039412
+INFO:root:the loss in 47600th batch is: 1.083610
+INFO:root:the loss in 47800th batch is: 0.932503
+INFO:root:the loss in 48000th batch is: 1.048425
+INFO:root:#############################################################
+INFO:root:total clicks: 108416, total purchase:4245
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 1: 3381.400000
+INFO:root:clicks hr ndcg @ 1 : 0.119189, 0.119189
+INFO:root:purchase hr and ndcg @1 : 0.187750, 0.187750
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 5: 8902.400000
+INFO:root:clicks hr ndcg @ 5 : 0.324602, 0.225081
+INFO:root:purchase hr and ndcg @5 : 0.439105, 0.317383
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 10: 11404.000000
+INFO:root:clicks hr ndcg @ 10 : 0.420141, 0.256123
+INFO:root:purchase hr and ndcg @10 : 0.540400, 0.350217
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 20: 13481.800000
+INFO:root:clicks hr ndcg @ 20 : 0.498349, 0.275992
+INFO:root:purchase hr and ndcg @20 : 0.630389, 0.373086
+INFO:root:#############################################################
+INFO:root:the loss in 48200th batch is: 1.061729
+INFO:root:the loss in 48400th batch is: 1.044699
+INFO:root:the loss in 48600th batch is: 1.088618
+INFO:root:the loss in 48800th batch is: 1.028633
+INFO:root:the loss in 49000th batch is: 1.115062
+INFO:root:the loss in 49200th batch is: 1.098537
+INFO:root:the loss in 49400th batch is: 1.023149
+INFO:root:the loss in 49600th batch is: 1.080514
+INFO:root:the loss in 49800th batch is: 1.053530
+INFO:root:the loss in 50000th batch is: 1.011583
+INFO:root:#############################################################
+INFO:root:total clicks: 108416, total purchase:4245
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 1: 3372.800000
+INFO:root:clicks hr ndcg @ 1 : 0.120130, 0.120130
+INFO:root:purchase hr and ndcg @1 : 0.180919, 0.180919
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 5: 8879.200000
+INFO:root:clicks hr ndcg @ 5 : 0.324085, 0.225436
+INFO:root:purchase hr and ndcg @5 : 0.436278, 0.313919
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 10: 11446.600000
+INFO:root:clicks hr ndcg @ 10 : 0.421506, 0.257076
+INFO:root:purchase hr and ndcg @10 : 0.543463, 0.348769
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 20: 13492.000000
+INFO:root:clicks hr ndcg @ 20 : 0.498819, 0.276686
+INFO:root:purchase hr and ndcg @20 : 0.630389, 0.370848
+INFO:root:#############################################################
+INFO:root:the loss in 50200th batch is: 1.079248
+INFO:root:the loss in 50400th batch is: 1.073891
+INFO:root:the loss in 50600th batch is: 1.062989
+INFO:root:the loss in 50800th batch is: 1.001837
+INFO:root:the loss in 51000th batch is: 1.002818
+INFO:root:the loss in 51200th batch is: 1.056792
+INFO:root:the loss in 51400th batch is: 1.113135
+INFO:root:the loss in 51600th batch is: 0.976401
+INFO:root:the loss in 51800th batch is: 1.119765
+INFO:root:the loss in 52000th batch is: 1.002249
+INFO:root:#############################################################
+INFO:root:total clicks: 108416, total purchase:4245
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 1: 3378.200000
+INFO:root:clicks hr ndcg @ 1 : 0.119457, 0.119457
+INFO:root:purchase hr and ndcg @1 : 0.185630, 0.185630
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 5: 8874.000000
+INFO:root:clicks hr ndcg @ 5 : 0.324122, 0.225456
+INFO:root:purchase hr and ndcg @5 : 0.434865, 0.314974
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 10: 11390.000000
+INFO:root:clicks hr ndcg @ 10 : 0.419864, 0.256565
+INFO:root:purchase hr and ndcg @10 : 0.538516, 0.348568
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 20: 13471.200000
+INFO:root:clicks hr ndcg @ 20 : 0.498644, 0.276572
+INFO:root:purchase hr and ndcg @20 : 0.626384, 0.371009
+INFO:root:#############################################################
+INFO:root:the loss in 52200th batch is: 1.060600
+INFO:root:the loss in 52400th batch is: 1.054375
+INFO:root:the loss in 52600th batch is: 1.055392
+INFO:root:the loss in 52800th batch is: 1.104544
+INFO:root:the loss in 53000th batch is: 1.065900
+INFO:root:the loss in 53200th batch is: 1.085136
+INFO:root:the loss in 53400th batch is: 1.031845
+INFO:root:the loss in 53600th batch is: 1.086830
+INFO:root:the loss in 53800th batch is: 1.073580
+INFO:root:the loss in 54000th batch is: 0.954561
+INFO:root:#############################################################
+INFO:root:total clicks: 108416, total purchase:4245
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 1: 3424.400000
+INFO:root:clicks hr ndcg @ 1 : 0.121495, 0.121495
+INFO:root:purchase hr and ndcg @1 : 0.186101, 0.186101
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 5: 8935.000000
+INFO:root:clicks hr ndcg @ 5 : 0.325921, 0.227034
+INFO:root:purchase hr and ndcg @5 : 0.440047, 0.318701
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 10: 11447.400000
+INFO:root:clicks hr ndcg @ 10 : 0.420574, 0.257749
+INFO:root:purchase hr and ndcg @10 : 0.548410, 0.353893
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 20: 13484.800000
+INFO:root:clicks hr ndcg @ 20 : 0.498395, 0.277513
+INFO:root:purchase hr and ndcg @20 : 0.630860, 0.374774
+INFO:root:#############################################################
+INFO:root:the loss in 54200th batch is: 1.076725
+INFO:root:the loss in 54400th batch is: 1.149047
+INFO:root:the loss in 54600th batch is: 1.043270
+INFO:root:the loss in 54800th batch is: 1.020589
+INFO:root:the loss in 55000th batch is: 1.148158
+INFO:root:the loss in 55200th batch is: 1.102151
+INFO:root:the loss in 55400th batch is: 1.014120
+INFO:root:the loss in 55600th batch is: 1.053678
+INFO:root:the loss in 55800th batch is: 0.998106
+INFO:root:the loss in 56000th batch is: 0.996553
+INFO:root:#############################################################
+INFO:root:total clicks: 108416, total purchase:4245
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 1: 3406.200000
+INFO:root:clicks hr ndcg @ 1 : 0.120148, 0.120148
+INFO:root:purchase hr and ndcg @1 : 0.188693, 0.188693
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 5: 8936.400000
+INFO:root:clicks hr ndcg @ 5 : 0.325201, 0.225997
+INFO:root:purchase hr and ndcg @5 : 0.444052, 0.321521
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 10: 11435.200000
+INFO:root:clicks hr ndcg @ 10 : 0.419366, 0.256549
+INFO:root:purchase hr and ndcg @10 : 0.551708, 0.356446
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 20: 13476.800000
+INFO:root:clicks hr ndcg @ 20 : 0.497657, 0.276435
+INFO:root:purchase hr and ndcg @20 : 0.632744, 0.377018
+INFO:root:#############################################################
+INFO:root:the loss in 56200th batch is: 1.011158
+INFO:root:the loss in 56400th batch is: 1.020930
+INFO:root:the loss in 56600th batch is: 0.965150
+INFO:root:the loss in 56800th batch is: 1.018438
+INFO:root:the loss in 57000th batch is: 0.970878
+INFO:root:the loss in 57200th batch is: 1.098211
+INFO:root:the loss in 57400th batch is: 1.050604
+INFO:root:the loss in 57600th batch is: 1.050716
+INFO:root:the loss in 57800th batch is: 1.039966
+INFO:root:the loss in 58000th batch is: 1.012862
+INFO:root:#############################################################
+INFO:root:total clicks: 108416, total purchase:4245
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 1: 3412.000000
+INFO:root:clicks hr ndcg @ 1 : 0.120693, 0.120693
+INFO:root:purchase hr and ndcg @1 : 0.187279, 0.187279
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 5: 8904.200000
+INFO:root:clicks hr ndcg @ 5 : 0.325100, 0.226250
+INFO:root:purchase hr and ndcg @5 : 0.436985, 0.318107
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 10: 11427.400000
+INFO:root:clicks hr ndcg @ 10 : 0.420851, 0.257352
+INFO:root:purchase hr and ndcg @10 : 0.542285, 0.352279
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 20: 13474.200000
+INFO:root:clicks hr ndcg @ 20 : 0.499013, 0.277202
+INFO:root:purchase hr and ndcg @20 : 0.625206, 0.373324
+INFO:root:#############################################################
+INFO:root:the loss in 58200th batch is: 1.109999
+INFO:root:the loss in 58400th batch is: 1.038262
+INFO:root:the loss in 58600th batch is: 1.020831
+INFO:root:the loss in 58800th batch is: 1.035128
+INFO:root:the loss in 59000th batch is: 1.042159
+INFO:root:the loss in 59200th batch is: 1.086701
+INFO:root:the loss in 59400th batch is: 1.148708
+INFO:root:the loss in 59600th batch is: 1.070142
+INFO:root:the loss in 59800th batch is: 1.098536
+INFO:root:the loss in 60000th batch is: 1.063793
+INFO:root:#############################################################
+INFO:root:total clicks: 108416, total purchase:4245
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 1: 3397.600000
+INFO:root:clicks hr ndcg @ 1 : 0.120305, 0.120305
+INFO:root:purchase hr and ndcg @1 : 0.185866, 0.185866
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 5: 8914.200000
+INFO:root:clicks hr ndcg @ 5 : 0.325745, 0.226312
+INFO:root:purchase hr and ndcg @5 : 0.436042, 0.317279
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 10: 11437.800000
+INFO:root:clicks hr ndcg @ 10 : 0.421469, 0.257361
+INFO:root:purchase hr and ndcg @10 : 0.541578, 0.351546
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 20: 13489.800000
+INFO:root:clicks hr ndcg @ 20 : 0.499594, 0.277175
+INFO:root:purchase hr and ndcg @20 : 0.625913, 0.372944
+INFO:root:#############################################################
+INFO:root:the loss in 60200th batch is: 0.991935
+INFO:root:the loss in 60400th batch is: 1.061807
+INFO:root:the loss in 60600th batch is: 1.106916
+INFO:root:the loss in 60800th batch is: 1.080728
+INFO:root:the loss in 61000th batch is: 1.088545
+INFO:root:the loss in 61200th batch is: 1.049491
+INFO:root:the loss in 61400th batch is: 1.166522
+INFO:root:the loss in 61600th batch is: 1.062638
+INFO:root:the loss in 61800th batch is: 1.035490
+INFO:root:the loss in 62000th batch is: 1.006823
+INFO:root:#############################################################
+INFO:root:total clicks: 108416, total purchase:4245
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 1: 3419.200000
+INFO:root:clicks hr ndcg @ 1 : 0.119180, 0.119180
+INFO:root:purchase hr and ndcg @1 : 0.196702, 0.196702
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 5: 8870.200000
+INFO:root:clicks hr ndcg @ 5 : 0.323485, 0.224546
+INFO:root:purchase hr and ndcg @5 : 0.437220, 0.321964
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 10: 11378.200000
+INFO:root:clicks hr ndcg @ 10 : 0.418490, 0.255412
+INFO:root:purchase hr and ndcg @10 : 0.542756, 0.356099
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 20: 13448.400000
+INFO:root:clicks hr ndcg @ 20 : 0.497362, 0.275428
+INFO:root:purchase hr and ndcg @20 : 0.627562, 0.377606
+INFO:root:#############################################################
+INFO:root:the loss in 62200th batch is: 1.183314
+INFO:root:the loss in 62400th batch is: 1.053768
+INFO:root:the loss in 62600th batch is: 1.102105
+INFO:root:the loss in 62800th batch is: 1.045191
+INFO:root:the loss in 63000th batch is: 0.976547
+INFO:root:the loss in 63200th batch is: 0.928020
+INFO:root:the loss in 63400th batch is: 1.044121
+INFO:root:the loss in 63600th batch is: 1.110456
+INFO:root:the loss in 63800th batch is: 0.994758
+INFO:root:the loss in 64000th batch is: 1.014027
+INFO:root:#############################################################
+INFO:root:total clicks: 108416, total purchase:4245
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 1: 3401.400000
+INFO:root:clicks hr ndcg @ 1 : 0.119742, 0.119742
+INFO:root:purchase hr and ndcg @1 : 0.189635, 0.189635
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 5: 8876.400000
+INFO:root:clicks hr ndcg @ 5 : 0.324740, 0.225805
+INFO:root:purchase hr and ndcg @5 : 0.432273, 0.315840
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 10: 11407.600000
+INFO:root:clicks hr ndcg @ 10 : 0.419431, 0.256549
+INFO:root:purchase hr and ndcg @10 : 0.544876, 0.352331
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 20: 13469.400000
+INFO:root:clicks hr ndcg @ 20 : 0.498146, 0.276524
+INFO:root:purchase hr and ndcg @20 : 0.628504, 0.373636
+INFO:root:#############################################################
+INFO:root:the loss in 64200th batch is: 1.055108
+INFO:root:the loss in 64400th batch is: 1.076884
+INFO:root:the loss in 64600th batch is: 0.961261
+INFO:root:the loss in 64800th batch is: 1.074842
+INFO:root:the loss in 65000th batch is: 1.034153
+INFO:root:the loss in 65200th batch is: 1.042648
+INFO:root:the loss in 65400th batch is: 1.059647
+INFO:root:the loss in 65600th batch is: 1.007279
+INFO:root:the loss in 65800th batch is: 1.034456
+INFO:root:the loss in 66000th batch is: 1.068817
+INFO:root:#############################################################
+INFO:root:total clicks: 108416, total purchase:4245
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 1: 3435.800000
+INFO:root:clicks hr ndcg @ 1 : 0.121375, 0.121375
+INFO:root:purchase hr and ndcg @1 : 0.189399, 0.189399
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 5: 8869.000000
+INFO:root:clicks hr ndcg @ 5 : 0.323292, 0.225749
+INFO:root:purchase hr and ndcg @5 : 0.437927, 0.319746
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 10: 11391.600000
+INFO:root:clicks hr ndcg @ 10 : 0.418877, 0.256801
+INFO:root:purchase hr and ndcg @10 : 0.543934, 0.354173
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 20: 13436.600000
+INFO:root:clicks hr ndcg @ 20 : 0.496633, 0.276554
+INFO:root:purchase hr and ndcg @20 : 0.628504, 0.375536
+INFO:root:#############################################################
+INFO:root:the loss in 66200th batch is: 0.986436
+INFO:root:the loss in 66400th batch is: 0.981281
+INFO:root:the loss in 66600th batch is: 1.007708
+INFO:root:the loss in 66800th batch is: 1.045646
+INFO:root:the loss in 67000th batch is: 1.085055
+INFO:root:the loss in 67200th batch is: 0.996860
+INFO:root:the loss in 67400th batch is: 1.037602
+INFO:root:the loss in 67600th batch is: 0.989843
+INFO:root:the loss in 67800th batch is: 0.987598
+INFO:root:the loss in 68000th batch is: 1.002559
+INFO:root:#############################################################
+INFO:root:total clicks: 108416, total purchase:4245
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 1: 3348.000000
+INFO:root:clicks hr ndcg @ 1 : 0.119632, 0.119632
+INFO:root:purchase hr and ndcg @1 : 0.177621, 0.177621
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 5: 8923.000000
+INFO:root:clicks hr ndcg @ 5 : 0.326059, 0.226101
+INFO:root:purchase hr and ndcg @5 : 0.436514, 0.312289
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 10: 11452.000000
+INFO:root:clicks hr ndcg @ 10 : 0.420925, 0.256898
+INFO:root:purchase hr and ndcg @10 : 0.547703, 0.348590
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 20: 13453.600000
+INFO:root:clicks hr ndcg @ 20 : 0.498340, 0.276528
+INFO:root:purchase hr and ndcg @20 : 0.623793, 0.367788
+INFO:root:#############################################################
+INFO:root:the loss in 68200th batch is: 1.049660
+INFO:root:the loss in 68400th batch is: 1.135582
+INFO:root:the loss in 68600th batch is: 0.973443
+INFO:root:the loss in 68800th batch is: 1.129461
+INFO:root:the loss in 69000th batch is: 1.125382
+INFO:root:the loss in 69200th batch is: 1.047397
+INFO:root:the loss in 69400th batch is: 1.037512
+INFO:root:the loss in 69600th batch is: 1.156766
+INFO:root:the loss in 69800th batch is: 1.006888
+INFO:root:the loss in 70000th batch is: 0.969161
+INFO:root:#############################################################
+INFO:root:total clicks: 108416, total purchase:4245
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 1: 3364.800000
+INFO:root:clicks hr ndcg @ 1 : 0.119576, 0.119576
+INFO:root:purchase hr and ndcg @1 : 0.181861, 0.181861
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 5: 8799.400000
+INFO:root:clicks hr ndcg @ 5 : 0.322849, 0.224740
+INFO:root:purchase hr and ndcg @5 : 0.423793, 0.309199
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 10: 11349.600000
+INFO:root:clicks hr ndcg @ 10 : 0.418324, 0.255739
+INFO:root:purchase hr and ndcg @10 : 0.536867, 0.346051
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 20: 13408.000000
+INFO:root:clicks hr ndcg @ 20 : 0.496191, 0.275517
+INFO:root:purchase hr and ndcg @20 : 0.624028, 0.368141
+INFO:root:#############################################################
+INFO:root:the loss in 70200th batch is: 1.047547
+INFO:root:the loss in 70400th batch is: 1.033590
+INFO:root:the loss in 70600th batch is: 1.089909
+INFO:root:the loss in 70800th batch is: 1.021434
+INFO:root:the loss in 71000th batch is: 1.031986
+INFO:root:the loss in 71200th batch is: 1.088785
+INFO:root:the loss in 71400th batch is: 1.002548
+INFO:root:the loss in 71600th batch is: 1.074375
+INFO:root:the loss in 71800th batch is: 1.047597
+INFO:root:the loss in 72000th batch is: 1.058569
+INFO:root:#############################################################
+INFO:root:total clicks: 108416, total purchase:4245
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 1: 3365.800000
+INFO:root:clicks hr ndcg @ 1 : 0.118931, 0.118931
+INFO:root:purchase hr and ndcg @1 : 0.185395, 0.185395
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 5: 8860.000000
+INFO:root:clicks hr ndcg @ 5 : 0.323568, 0.224670
+INFO:root:purchase hr and ndcg @5 : 0.434393, 0.315773
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 10: 11358.400000
+INFO:root:clicks hr ndcg @ 10 : 0.418822, 0.255596
+INFO:root:purchase hr and ndcg @10 : 0.536396, 0.348734
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 20: 13408.400000
+INFO:root:clicks hr ndcg @ 20 : 0.497224, 0.275500
+INFO:root:purchase hr and ndcg @20 : 0.618846, 0.369651
+INFO:root:#############################################################
+INFO:root:the loss in 72200th batch is: 1.009423
+INFO:root:the loss in 72400th batch is: 0.962243
+INFO:root:the loss in 72600th batch is: 1.091354
+INFO:root:the loss in 72800th batch is: 1.061734
+INFO:root:the loss in 73000th batch is: 1.036178
+INFO:root:the loss in 73200th batch is: 1.016113
+INFO:root:the loss in 73400th batch is: 1.050103
+INFO:root:the loss in 73600th batch is: 1.030122
+INFO:root:the loss in 73800th batch is: 0.989577
+INFO:root:the loss in 74000th batch is: 1.004192
+INFO:root:#############################################################
+INFO:root:total clicks: 108416, total purchase:4245
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 1: 3417.400000
+INFO:root:clicks hr ndcg @ 1 : 0.120573, 0.120573
+INFO:root:purchase hr and ndcg @1 : 0.189164, 0.189164
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 5: 8816.400000
+INFO:root:clicks hr ndcg @ 5 : 0.322665, 0.224892
+INFO:root:purchase hr and ndcg @5 : 0.428740, 0.314627
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 10: 11344.000000
+INFO:root:clicks hr ndcg @ 10 : 0.418250, 0.255917
+INFO:root:purchase hr and ndcg @10 : 0.535925, 0.349282
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 20: 13429.600000
+INFO:root:clicks hr ndcg @ 20 : 0.497602, 0.276067
+INFO:root:purchase hr and ndcg @20 : 0.621908, 0.371159
+INFO:root:#############################################################
+INFO:root:the loss in 74200th batch is: 1.072522
+INFO:root:the loss in 74400th batch is: 0.959579
+INFO:root:the loss in 74600th batch is: 1.129555
+INFO:root:the loss in 74800th batch is: 1.082091
+INFO:root:the loss in 75000th batch is: 0.949792
+INFO:root:the loss in 75200th batch is: 1.104562
+INFO:root:the loss in 75400th batch is: 1.064258
+INFO:root:the loss in 75600th batch is: 1.002995
+INFO:root:the loss in 75800th batch is: 0.988462
+INFO:root:the loss in 76000th batch is: 0.973359
+INFO:root:#############################################################
+INFO:root:total clicks: 108416, total purchase:4245
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 1: 3356.600000
+INFO:root:clicks hr ndcg @ 1 : 0.119429, 0.119429
+INFO:root:purchase hr and ndcg @1 : 0.180683, 0.180683
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 5: 8815.600000
+INFO:root:clicks hr ndcg @ 5 : 0.322812, 0.224546
+INFO:root:purchase hr and ndcg @5 : 0.427797, 0.310103
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 10: 11304.200000
+INFO:root:clicks hr ndcg @ 10 : 0.417660, 0.255343
+INFO:root:purchase hr and ndcg @10 : 0.529564, 0.343102
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 20: 13306.600000
+INFO:root:clicks hr ndcg @ 20 : 0.495158, 0.275020
+INFO:root:purchase hr and ndcg @20 : 0.605418, 0.362311
+INFO:root:#############################################################
+INFO:root:the loss in 76200th batch is: 1.007554
+INFO:root:the loss in 76400th batch is: 1.024545
+INFO:root:the loss in 76600th batch is: 1.067115
+INFO:root:the loss in 76800th batch is: 1.077823
+INFO:root:the loss in 77000th batch is: 0.990587
+INFO:root:the loss in 77200th batch is: 1.004110
+INFO:root:the loss in 77400th batch is: 1.022890
+INFO:root:the loss in 77600th batch is: 1.007832
+INFO:root:the loss in 77800th batch is: 0.968072
+INFO:root:the loss in 78000th batch is: 1.072627
+INFO:root:#############################################################
+INFO:root:total clicks: 108416, total purchase:4245
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 1: 3400.800000
+INFO:root:clicks hr ndcg @ 1 : 0.120545, 0.120545
+INFO:root:purchase hr and ndcg @1 : 0.185395, 0.185395
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 5: 8871.000000
+INFO:root:clicks hr ndcg @ 5 : 0.324675, 0.225951
+INFO:root:purchase hr and ndcg @5 : 0.431331, 0.315992
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 10: 11296.800000
+INFO:root:clicks hr ndcg @ 10 : 0.417457, 0.256061
+INFO:root:purchase hr and ndcg @10 : 0.528857, 0.347716
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 20: 13390.200000
+INFO:root:clicks hr ndcg @ 20 : 0.496384, 0.276103
+INFO:root:purchase hr and ndcg @20 : 0.618846, 0.370554
+INFO:root:#############################################################
+INFO:root:the loss in 78200th batch is: 1.026547
+INFO:root:the loss in 78400th batch is: 1.009876
+INFO:root:the loss in 78600th batch is: 1.054537
+INFO:root:the loss in 78800th batch is: 1.096083
+INFO:root:the loss in 79000th batch is: 1.000457
+INFO:root:the loss in 79200th batch is: 1.075370
+INFO:root:the loss in 79400th batch is: 0.965641
+INFO:root:the loss in 79600th batch is: 1.011298
+INFO:root:the loss in 79800th batch is: 1.055219
+INFO:root:the loss in 80000th batch is: 0.976794
+INFO:root:#############################################################
+INFO:root:total clicks: 108416, total purchase:4245
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 1: 3380.600000
+INFO:root:clicks hr ndcg @ 1 : 0.119521, 0.119521
+INFO:root:purchase hr and ndcg @1 : 0.185866, 0.185866
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 5: 8811.600000
+INFO:root:clicks hr ndcg @ 5 : 0.322582, 0.224398
+INFO:root:purchase hr and ndcg @5 : 0.428033, 0.312419
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 10: 11323.600000
+INFO:root:clicks hr ndcg @ 10 : 0.418232, 0.255473
+INFO:root:purchase hr and ndcg @10 : 0.531213, 0.346035
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 20: 13395.200000
+INFO:root:clicks hr ndcg @ 20 : 0.496430, 0.275308
+INFO:root:purchase hr and ndcg @20 : 0.619788, 0.368672
+INFO:root:#############################################################
+INFO:root:the loss in 80200th batch is: 0.994546
+INFO:root:the loss in 80400th batch is: 1.011589
+INFO:root:the loss in 80600th batch is: 1.149756
+INFO:root:the loss in 80800th batch is: 1.023171
+INFO:root:the loss in 81000th batch is: 1.067356
+INFO:root:the loss in 81200th batch is: 1.030849
+INFO:root:the loss in 81400th batch is: 1.013314
+INFO:root:the loss in 81600th batch is: 0.932963
+INFO:root:the loss in 81800th batch is: 0.945967
+INFO:root:the loss in 82000th batch is: 1.077023
+INFO:root:#############################################################
+INFO:root:total clicks: 108416, total purchase:4245
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 1: 3368.000000
+INFO:root:clicks hr ndcg @ 1 : 0.119724, 0.119724
+INFO:root:purchase hr and ndcg @1 : 0.181861, 0.181861
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 5: 8821.200000
+INFO:root:clicks hr ndcg @ 5 : 0.323209, 0.224850
+INFO:root:purchase hr and ndcg @5 : 0.427091, 0.310170
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 10: 11315.800000
+INFO:root:clicks hr ndcg @ 10 : 0.418425, 0.255767
+INFO:root:purchase hr and ndcg @10 : 0.528386, 0.342969
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 20: 13377.400000
+INFO:root:clicks hr ndcg @ 20 : 0.495978, 0.275445
+INFO:root:purchase hr and ndcg @20 : 0.617903, 0.365733
+INFO:root:#############################################################
+INFO:root:the loss in 82200th batch is: 1.044281
+INFO:root:the loss in 82400th batch is: 1.007119
+INFO:root:the loss in 82600th batch is: 1.104398
+INFO:root:the loss in 82800th batch is: 1.055587
+INFO:root:the loss in 83000th batch is: 1.047289
+INFO:root:the loss in 83200th batch is: 1.009866
+INFO:root:the loss in 83400th batch is: 1.002699
+INFO:root:the loss in 83600th batch is: 0.912076
+INFO:root:the loss in 83800th batch is: 1.029711
+INFO:root:the loss in 84000th batch is: 1.115383
+INFO:root:#############################################################
+INFO:root:total clicks: 108416, total purchase:4245
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 1: 3391.600000
+INFO:root:clicks hr ndcg @ 1 : 0.120305, 0.120305
+INFO:root:purchase hr and ndcg @1 : 0.184452, 0.184452
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 5: 8835.400000
+INFO:root:clicks hr ndcg @ 5 : 0.322526, 0.225001
+INFO:root:purchase hr and ndcg @5 : 0.433922, 0.315191
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 10: 11284.000000
+INFO:root:clicks hr ndcg @ 10 : 0.415621, 0.255226
+INFO:root:purchase hr and ndcg @10 : 0.535218, 0.348232
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 20: 13348.600000
+INFO:root:clicks hr ndcg @ 20 : 0.494374, 0.275206
+INFO:root:purchase hr and ndcg @20 : 0.619317, 0.369599
+INFO:root:#############################################################
+INFO:root:the loss in 84200th batch is: 1.049271
+INFO:root:the loss in 84400th batch is: 0.991647
+INFO:root:the loss in 84600th batch is: 1.016301
+INFO:root:the loss in 84800th batch is: 1.069425
+INFO:root:the loss in 85000th batch is: 1.017745
+INFO:root:the loss in 85200th batch is: 1.042000
+INFO:root:the loss in 85400th batch is: 1.086788
+INFO:root:the loss in 85600th batch is: 1.030927
+INFO:root:the loss in 85800th batch is: 0.994232
+INFO:root:the loss in 86000th batch is: 0.993457
+INFO:root:#############################################################
+INFO:root:total clicks: 108416, total purchase:4245
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 1: 3372.800000
+INFO:root:clicks hr ndcg @ 1 : 0.119992, 0.119992
+INFO:root:purchase hr and ndcg @1 : 0.181625, 0.181625
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 5: 8842.800000
+INFO:root:clicks hr ndcg @ 5 : 0.323651, 0.225179
+INFO:root:purchase hr and ndcg @5 : 0.429918, 0.310258
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 10: 11319.600000
+INFO:root:clicks hr ndcg @ 10 : 0.417079, 0.255505
+INFO:root:purchase hr and ndcg @10 : 0.536160, 0.344746
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 20: 13382.000000
+INFO:root:clicks hr ndcg @ 20 : 0.496421, 0.275626
+INFO:root:purchase hr and ndcg @20 : 0.616726, 0.365384
+INFO:root:#############################################################
+INFO:root:the loss in 86200th batch is: 0.999701
+INFO:root:the loss in 86400th batch is: 1.030098
+INFO:root:the loss in 86600th batch is: 1.074758
+INFO:root:the loss in 86800th batch is: 1.042114
+INFO:root:the loss in 87000th batch is: 1.025444
+INFO:root:the loss in 87200th batch is: 1.058879
+INFO:root:the loss in 87400th batch is: 1.114060
+INFO:root:the loss in 87600th batch is: 1.034914
+INFO:root:the loss in 87800th batch is: 1.055440
+INFO:root:the loss in 88000th batch is: 0.987603
+INFO:root:#############################################################
+INFO:root:total clicks: 108416, total purchase:4245
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 1: 3348.600000
+INFO:root:clicks hr ndcg @ 1 : 0.119429, 0.119429
+INFO:root:purchase hr and ndcg @1 : 0.178799, 0.178799
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 5: 8824.800000
+INFO:root:clicks hr ndcg @ 5 : 0.322729, 0.224440
+INFO:root:purchase hr and ndcg @5 : 0.430389, 0.309614
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 10: 11304.200000
+INFO:root:clicks hr ndcg @ 10 : 0.416968, 0.255053
+INFO:root:purchase hr and ndcg @10 : 0.533098, 0.343159
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 20: 13406.800000
+INFO:root:clicks hr ndcg @ 20 : 0.496412, 0.275200
+INFO:root:purchase hr and ndcg @20 : 0.622615, 0.365801
+INFO:root:#############################################################
+INFO:root:the loss in 88200th batch is: 1.011802
+INFO:root:the loss in 88400th batch is: 0.981726
+INFO:root:the loss in 88600th batch is: 1.100965
+INFO:root:the loss in 88800th batch is: 1.023440
+INFO:root:the loss in 89000th batch is: 1.080431
+INFO:root:the loss in 89200th batch is: 1.004154
+INFO:root:the loss in 89400th batch is: 1.035875
+INFO:root:the loss in 89600th batch is: 1.003389
+INFO:root:the loss in 89800th batch is: 1.005579
+INFO:root:the loss in 90000th batch is: 1.153963
+INFO:root:#############################################################
+INFO:root:total clicks: 108416, total purchase:4245
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 1: 3355.200000
+INFO:root:clicks hr ndcg @ 1 : 0.118903, 0.118903
+INFO:root:purchase hr and ndcg @1 : 0.183039, 0.183039
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 5: 8856.400000
+INFO:root:clicks hr ndcg @ 5 : 0.323633, 0.224736
+INFO:root:purchase hr and ndcg @5 : 0.433216, 0.314183
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 10: 11352.800000
+INFO:root:clicks hr ndcg @ 10 : 0.417595, 0.255283
+INFO:root:purchase hr and ndcg @10 : 0.541343, 0.349311
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 20: 13384.600000
+INFO:root:clicks hr ndcg @ 20 : 0.495526, 0.275056
+INFO:root:purchase hr and ndcg @20 : 0.621908, 0.369755
+INFO:root:#############################################################
+INFO:root:the loss in 90200th batch is: 1.095688
+INFO:root:the loss in 90400th batch is: 0.969283
+INFO:root:the loss in 90600th batch is: 1.034488
+INFO:root:the loss in 90800th batch is: 1.109302
+INFO:root:the loss in 91000th batch is: 0.993430
+INFO:root:the loss in 91200th batch is: 1.121037
+INFO:root:the loss in 91400th batch is: 1.018388
+INFO:root:the loss in 91600th batch is: 1.003279
+INFO:root:the loss in 91800th batch is: 1.023250
+INFO:root:the loss in 92000th batch is: 1.039910
+INFO:root:#############################################################
+INFO:root:total clicks: 108416, total purchase:4245
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 1: 3379.800000
+INFO:root:clicks hr ndcg @ 1 : 0.119161, 0.119161
+INFO:root:purchase hr and ndcg @1 : 0.187515, 0.187515
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 5: 8852.200000
+INFO:root:clicks hr ndcg @ 5 : 0.323117, 0.224530
+INFO:root:purchase hr and ndcg @5 : 0.434865, 0.316926
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 10: 11330.600000
+INFO:root:clicks hr ndcg @ 10 : 0.416940, 0.255013
+INFO:root:purchase hr and ndcg @10 : 0.539458, 0.350815
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 20: 13368.600000
+INFO:root:clicks hr ndcg @ 20 : 0.494420, 0.274664
+INFO:root:purchase hr and ndcg @20 : 0.623793, 0.372228
+INFO:root:#############################################################
+INFO:root:the loss in 92200th batch is: 0.980771
+INFO:root:the loss in 92400th batch is: 1.126020
+INFO:root:the loss in 92600th batch is: 1.076397
+INFO:root:the loss in 92800th batch is: 0.977508
+INFO:root:the loss in 93000th batch is: 1.155027
+INFO:root:the loss in 93200th batch is: 1.037054
+INFO:root:the loss in 93400th batch is: 1.016564
+INFO:root:the loss in 93600th batch is: 0.983859
+INFO:root:the loss in 93800th batch is: 1.029614
+INFO:root:the loss in 94000th batch is: 0.962648
+INFO:root:#############################################################
+INFO:root:total clicks: 108416, total purchase:4245
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 1: 3426.600000
+INFO:root:clicks hr ndcg @ 1 : 0.120213, 0.120213
+INFO:root:purchase hr and ndcg @1 : 0.193168, 0.193168
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 5: 8839.200000
+INFO:root:clicks hr ndcg @ 5 : 0.323255, 0.225245
+INFO:root:purchase hr and ndcg @5 : 0.431095, 0.317358
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 10: 11318.800000
+INFO:root:clicks hr ndcg @ 10 : 0.416903, 0.255649
+INFO:root:purchase hr and ndcg @10 : 0.536867, 0.351617
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 20: 13364.000000
+INFO:root:clicks hr ndcg @ 20 : 0.494484, 0.275343
+INFO:root:purchase hr and ndcg @20 : 0.622379, 0.373251
+INFO:root:#############################################################
+INFO:root:the loss in 94200th batch is: 0.935496
+INFO:root:the loss in 94400th batch is: 0.999447
+INFO:root:the loss in 94600th batch is: 1.047351
+INFO:root:the loss in 94800th batch is: 1.063201
+INFO:root:the loss in 95000th batch is: 1.071456
+INFO:root:the loss in 95200th batch is: 1.097447
+INFO:root:the loss in 95400th batch is: 1.057212
+INFO:root:the loss in 95600th batch is: 1.093508
+INFO:root:the loss in 95800th batch is: 1.069180
+INFO:root:the loss in 96000th batch is: 1.032470
+INFO:root:#############################################################
+INFO:root:total clicks: 108416, total purchase:4245
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 1: 3417.400000
+INFO:root:clicks hr ndcg @ 1 : 0.120111, 0.120111
+INFO:root:purchase hr and ndcg @1 : 0.191519, 0.191519
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 5: 8806.400000
+INFO:root:clicks hr ndcg @ 5 : 0.322987, 0.225218
+INFO:root:purchase hr and ndcg @5 : 0.424735, 0.313914
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 10: 11311.400000
+INFO:root:clicks hr ndcg @ 10 : 0.416470, 0.255581
+INFO:root:purchase hr and ndcg @10 : 0.537338, 0.350560
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 20: 13355.600000
+INFO:root:clicks hr ndcg @ 20 : 0.495111, 0.275544
+INFO:root:purchase hr and ndcg @20 : 0.617197, 0.370848
+INFO:root:#############################################################
+INFO:root:the loss in 96200th batch is: 1.031681
+INFO:root:the loss in 96400th batch is: 1.085889
+INFO:root:the loss in 96600th batch is: 0.982385
+INFO:root:the loss in 96800th batch is: 1.087543
+INFO:root:the loss in 97000th batch is: 0.998149
+INFO:root:the loss in 97200th batch is: 1.013556
+INFO:root:the loss in 97400th batch is: 1.014024
+INFO:root:the loss in 97600th batch is: 0.995426
+INFO:root:the loss in 97800th batch is: 1.017517
+INFO:root:the loss in 98000th batch is: 1.081957
+INFO:root:#############################################################
+INFO:root:total clicks: 108416, total purchase:4245
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 1: 3440.000000
+INFO:root:clicks hr ndcg @ 1 : 0.120831, 0.120831
+INFO:root:purchase hr and ndcg @1 : 0.193168, 0.193168
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 5: 8873.000000
+INFO:root:clicks hr ndcg @ 5 : 0.323707, 0.225607
+INFO:root:purchase hr and ndcg @5 : 0.436749, 0.321078
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 10: 11349.600000
+INFO:root:clicks hr ndcg @ 10 : 0.417955, 0.256234
+INFO:root:purchase hr and ndcg @10 : 0.538751, 0.354082
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 20: 13345.200000
+INFO:root:clicks hr ndcg @ 20 : 0.494124, 0.275579
+INFO:root:purchase hr and ndcg @20 : 0.619788, 0.374698
+INFO:root:#############################################################
+INFO:root:the loss in 98200th batch is: 0.983059
+INFO:root:the loss in 98400th batch is: 1.040324
+INFO:root:the loss in 98600th batch is: 0.994596
+INFO:root:the loss in 98800th batch is: 1.048815
+INFO:root:the loss in 99000th batch is: 0.999885
+INFO:root:the loss in 99200th batch is: 1.000256
+INFO:root:the loss in 99400th batch is: 1.063056
+INFO:root:the loss in 99600th batch is: 0.938416
+INFO:root:the loss in 99800th batch is: 1.014436
+INFO:root:the loss in 100000th batch is: 1.022611
+INFO:root:#############################################################
+INFO:root:total clicks: 108416, total purchase:4245
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 1: 3391.800000
+INFO:root:clicks hr ndcg @ 1 : 0.119761, 0.119761
+INFO:root:purchase hr and ndcg @1 : 0.187279, 0.187279
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 5: 8814.400000
+INFO:root:clicks hr ndcg @ 5 : 0.322111, 0.224391
+INFO:root:purchase hr and ndcg @5 : 0.431095, 0.313897
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 10: 11323.600000
+INFO:root:clicks hr ndcg @ 10 : 0.416848, 0.255101
+INFO:root:purchase hr and ndcg @10 : 0.538280, 0.348729
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 20: 13380.000000
+INFO:root:clicks hr ndcg @ 20 : 0.495407, 0.275044
+INFO:root:purchase hr and ndcg @20 : 0.621437, 0.369795
+INFO:root:#############################################################
+INFO:root:the loss in 100200th batch is: 1.045925
+INFO:root:the loss in 100400th batch is: 1.029960
+INFO:root:the loss in 100600th batch is: 0.999135
+INFO:root:the loss in 100800th batch is: 1.020839
+INFO:root:the loss in 101000th batch is: 0.960263
+INFO:root:the loss in 101200th batch is: 1.016226
+INFO:root:the loss in 101400th batch is: 1.026911
+INFO:root:the loss in 101600th batch is: 1.061485
+INFO:root:the loss in 101800th batch is: 0.973336
+INFO:root:the loss in 102000th batch is: 1.023400
+INFO:root:#############################################################
+INFO:root:total clicks: 108416, total purchase:4245
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 1: 3373.000000
+INFO:root:clicks hr ndcg @ 1 : 0.118340, 0.118340
+INFO:root:purchase hr and ndcg @1 : 0.190106, 0.190106
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 5: 8764.800000
+INFO:root:clicks hr ndcg @ 5 : 0.319270, 0.222258
+INFO:root:purchase hr and ndcg @5 : 0.433922, 0.317479
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 10: 11262.000000
+INFO:root:clicks hr ndcg @ 10 : 0.413500, 0.252872
+INFO:root:purchase hr and ndcg @10 : 0.540872, 0.352173
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 20: 13299.600000
+INFO:root:clicks hr ndcg @ 20 : 0.491699, 0.272733
+INFO:root:purchase hr and ndcg @20 : 0.621437, 0.372588
+INFO:root:#############################################################
+INFO:root:the loss in 102200th batch is: 1.028638
+INFO:root:the loss in 102400th batch is: 0.968141
+INFO:root:the loss in 102600th batch is: 0.908197
+INFO:root:the loss in 102800th batch is: 1.040104
+INFO:root:the loss in 103000th batch is: 1.032682
+INFO:root:the loss in 103200th batch is: 1.028828
+INFO:root:the loss in 103400th batch is: 1.071843
+INFO:root:the loss in 103600th batch is: 1.041116
+INFO:root:the loss in 103800th batch is: 1.012408
+INFO:root:the loss in 104000th batch is: 1.054458
+INFO:root:#############################################################
+INFO:root:total clicks: 108416, total purchase:4245
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 1: 3364.200000
+INFO:root:clicks hr ndcg @ 1 : 0.118719, 0.118719
+INFO:root:purchase hr and ndcg @1 : 0.186101, 0.186101
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 5: 8845.200000
+INFO:root:clicks hr ndcg @ 5 : 0.322517, 0.224276
+INFO:root:purchase hr and ndcg @5 : 0.436278, 0.315623
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 10: 11322.400000
+INFO:root:clicks hr ndcg @ 10 : 0.416193, 0.254677
+INFO:root:purchase hr and ndcg @10 : 0.541343, 0.349763
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 20: 13331.600000
+INFO:root:clicks hr ndcg @ 20 : 0.493682, 0.274354
+INFO:root:purchase hr and ndcg @20 : 0.618846, 0.369431
+INFO:root:#############################################################
+INFO:root:the loss in 104200th batch is: 1.020844
+INFO:root:the loss in 104400th batch is: 0.940741
+INFO:root:the loss in 104600th batch is: 1.049495
+INFO:root:the loss in 104800th batch is: 1.035868
+INFO:root:the loss in 105000th batch is: 0.933676
+INFO:root:the loss in 105200th batch is: 1.003061
+INFO:root:the loss in 105400th batch is: 1.036301
+INFO:root:the loss in 105600th batch is: 1.006842
+INFO:root:the loss in 105800th batch is: 1.025352
+INFO:root:the loss in 106000th batch is: 0.931500
+INFO:root:#############################################################
+INFO:root:total clicks: 108416, total purchase:4245
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 1: 3382.000000
+INFO:root:clicks hr ndcg @ 1 : 0.119032, 0.119032
+INFO:root:purchase hr and ndcg @1 : 0.188693, 0.188693
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 5: 8850.400000
+INFO:root:clicks hr ndcg @ 5 : 0.322849, 0.224585
+INFO:root:purchase hr and ndcg @5 : 0.435807, 0.318069
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 10: 11329.800000
+INFO:root:clicks hr ndcg @ 10 : 0.417134, 0.255172
+INFO:root:purchase hr and ndcg @10 : 0.538280, 0.351297
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 20: 13347.000000
+INFO:root:clicks hr ndcg @ 20 : 0.494392, 0.274767
+INFO:root:purchase hr and ndcg @20 : 0.618846, 0.371704
+INFO:root:#############################################################
+INFO:root:the loss in 106200th batch is: 1.006623
+INFO:root:the loss in 106400th batch is: 1.040884

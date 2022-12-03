@@ -1,0 +1,284 @@
+WARNING:tensorflow:From /Users/xin/Documents/RL4REC/RC15/GRU_PRL.py:124: The name tf.random_normal is deprecated. Please use tf.random.normal instead.
+
+WARNING:tensorflow:From /Users/xin/Documents/RL4REC/RC15/GRU_PRL.py:56: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+WARNING:tensorflow:From /Users/xin/Documents/RL4REC/RC15/GRU_PRL.py:68: GRUCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.GRUCell, and will be replaced by that in Tensorflow 2.0.
+WARNING:tensorflow:From /Users/xin/Documents/RL4REC/RC15/GRU_PRL.py:71: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+WARNING:tensorflow:From /Users/xin/miniconda3/envs/tf-1.15/lib/python3.7/site-packages/tensorflow_core/python/ops/rnn_cell_impl.py:559: Layer.add_variable (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.add_weight` method instead.
+WARNING:tensorflow:From /Users/xin/miniconda3/envs/tf-1.15/lib/python3.7/site-packages/tensorflow_core/python/ops/rnn_cell_impl.py:565: calling Constant.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+WARNING:tensorflow:From /Users/xin/miniconda3/envs/tf-1.15/lib/python3.7/site-packages/tensorflow_core/python/ops/rnn_cell_impl.py:575: calling Zeros.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+WARNING:tensorflow:From /Users/xin/miniconda3/envs/tf-1.15/lib/python3.7/site-packages/tensorflow_core/python/ops/rnn.py:244: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From /Users/xin/Documents/RL4REC/RC15/GRU_PRL.py:84: dropout (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.dropout instead.
+WARNING:tensorflow:From /Users/xin/miniconda3/envs/tf-1.15/lib/python3.7/site-packages/tensorflow_core/python/layers/core.py:271: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.
+WARNING:tensorflow:From /Users/xin/Documents/RL4REC/RC15/GRU_PRL.py:89: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+WARNING:tensorflow:From /Users/xin/Documents/RL4REC/RC15/SASRecModules.py:142: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.
+WARNING:tensorflow:From /Users/xin/Documents/RL4REC/RC15/GRU_PRL.py:120: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+WARNING:tensorflow:From /Users/xin/Documents/RL4REC/RC15/GRU_PRL.py:244: The name tf.train.Saver is deprecated. Please use tf.compat.v1.train.Saver instead.
+
+WARNING:tensorflow:From /Users/xin/Documents/RL4REC/RC15/GRU_PRL.py:247: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+WARNING:tensorflow:From /Users/xin/Documents/RL4REC/RC15/GRU_PRL.py:249: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+INFO:root:the loss in 200th batch is: 1.864586
+INFO:root:the loss in 400th batch is: 1.496473
+INFO:root:the loss in 600th batch is: 1.589701
+INFO:root:the loss in 800th batch is: 1.469858
+INFO:root:the loss in 1000th batch is: 1.388071
+INFO:root:the loss in 1200th batch is: 1.414280
+INFO:root:the loss in 1400th batch is: 1.409714
+INFO:root:the loss in 1600th batch is: 1.352935
+INFO:root:the loss in 1800th batch is: 1.301377
+INFO:root:the loss in 2000th batch is: 1.397701
+INFO:root:#############################################################
+INFO:root:total clicks: 109581, total purchase:4388
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 1: 2616.000000
+INFO:root:clicks hr ndcg @ 1 : 0.090344, 0.090344
+INFO:root:purchase hr and ndcg @1 : 0.144941, 0.144941
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 5: 7437.400000
+INFO:root:clicks hr ndcg @ 5 : 0.260510, 0.177739
+INFO:root:purchase hr and ndcg @5 : 0.393801, 0.272336
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 10: 9903.600000
+INFO:root:clicks hr ndcg @ 10 : 0.350225, 0.206867
+INFO:root:purchase hr and ndcg @10 : 0.507748, 0.309183
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 20: 12004.000000
+INFO:root:clicks hr ndcg @ 20 : 0.426808, 0.226294
+INFO:root:purchase hr and ndcg @20 : 0.603920, 0.333631
+INFO:root:#############################################################
+INFO:root:the loss in 2200th batch is: 1.240651
+INFO:root:the loss in 2400th batch is: 1.389444
+INFO:root:the loss in 2600th batch is: 1.370397
+INFO:root:the loss in 2800th batch is: 1.317714
+INFO:root:the loss in 3000th batch is: 1.229298
+INFO:root:the loss in 3200th batch is: 1.467201
+INFO:root:the loss in 3400th batch is: 1.236362
+INFO:root:the loss in 3600th batch is: 1.283476
+INFO:root:the loss in 3800th batch is: 1.268225
+INFO:root:the loss in 4000th batch is: 1.343637
+INFO:root:#############################################################
+INFO:root:total clicks: 109581, total purchase:4388
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 1: 2916.600000
+INFO:root:clicks hr ndcg @ 1 : 0.100455, 0.100455
+INFO:root:purchase hr and ndcg @1 : 0.162944, 0.162944
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 5: 8056.400000
+INFO:root:clicks hr ndcg @ 5 : 0.284557, 0.195123
+INFO:root:purchase hr and ndcg @5 : 0.414768, 0.293198
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 10: 10627.200000
+INFO:root:clicks hr ndcg @ 10 : 0.377994, 0.225462
+INFO:root:purchase hr and ndcg @10 : 0.533956, 0.332032
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 20: 12769.200000
+INFO:root:clicks hr ndcg @ 20 : 0.456293, 0.245328
+INFO:root:purchase hr and ndcg @20 : 0.631039, 0.356650
+INFO:root:#############################################################
+INFO:root:the loss in 4200th batch is: 1.191625
+INFO:root:the loss in 4400th batch is: 1.291889
+INFO:root:the loss in 4600th batch is: 1.167489
+INFO:root:the loss in 4800th batch is: 1.211112
+INFO:root:the loss in 5000th batch is: 1.273648
+INFO:root:the loss in 5200th batch is: 1.226125
+INFO:root:the loss in 5400th batch is: 1.188429
+INFO:root:the loss in 5600th batch is: 1.195592
+INFO:root:the loss in 5800th batch is: 1.247338
+INFO:root:the loss in 6000th batch is: 1.242716
+INFO:root:#############################################################
+INFO:root:total clicks: 109581, total purchase:4388
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 1: 2994.800000
+INFO:root:clicks hr ndcg @ 1 : 0.103567, 0.103567
+INFO:root:purchase hr and ndcg @1 : 0.165223, 0.165223
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 5: 8225.000000
+INFO:root:clicks hr ndcg @ 5 : 0.290151, 0.199635
+INFO:root:purchase hr and ndcg @5 : 0.425251, 0.299975
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 10: 10838.600000
+INFO:root:clicks hr ndcg @ 10 : 0.385268, 0.230504
+INFO:root:purchase hr and ndcg @10 : 0.545807, 0.339126
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 20: 13053.400000
+INFO:root:clicks hr ndcg @ 20 : 0.466340, 0.251068
+INFO:root:purchase hr and ndcg @20 : 0.645624, 0.364554
+INFO:root:#############################################################
+INFO:root:the loss in 6200th batch is: 1.192407
+INFO:root:the loss in 6400th batch is: 1.221158
+INFO:root:the loss in 6600th batch is: 1.133760
+INFO:root:the loss in 6800th batch is: 1.297457
+INFO:root:the loss in 7000th batch is: 1.220454
+INFO:root:the loss in 7200th batch is: 1.283522
+INFO:root:the loss in 7400th batch is: 1.201473
+INFO:root:the loss in 7600th batch is: 1.208932
+INFO:root:the loss in 7800th batch is: 1.214283
+INFO:root:the loss in 8000th batch is: 1.155437
+INFO:root:#############################################################
+INFO:root:total clicks: 109581, total purchase:4388
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 1: 3003.600000
+INFO:root:clicks hr ndcg @ 1 : 0.103877, 0.103877
+INFO:root:purchase hr and ndcg @1 : 0.165679, 0.165679
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 5: 8298.800000
+INFO:root:clicks hr ndcg @ 5 : 0.293153, 0.201400
+INFO:root:purchase hr and ndcg @5 : 0.427074, 0.300617
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 10: 10942.000000
+INFO:root:clicks hr ndcg @ 10 : 0.389757, 0.232730
+INFO:root:purchase hr and ndcg @10 : 0.546946, 0.339649
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 20: 13127.400000
+INFO:root:clicks hr ndcg @ 20 : 0.471131, 0.253368
+INFO:root:purchase hr and ndcg @20 : 0.638560, 0.362911
+INFO:root:#############################################################
+INFO:root:the loss in 8200th batch is: 1.186179
+INFO:root:the loss in 8400th batch is: 1.149136
+INFO:root:the loss in 8600th batch is: 1.170248
+INFO:root:the loss in 8800th batch is: 1.246456
+INFO:root:the loss in 9000th batch is: 1.228595
+INFO:root:the loss in 9200th batch is: 1.269184
+INFO:root:the loss in 9400th batch is: 1.272296
+INFO:root:the loss in 9600th batch is: 1.173141
+INFO:root:the loss in 9800th batch is: 1.167073
+INFO:root:the loss in 10000th batch is: 1.201681
+INFO:root:#############################################################
+INFO:root:total clicks: 109581, total purchase:4388
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 1: 3052.600000
+INFO:root:clicks hr ndcg @ 1 : 0.105064, 0.105064
+INFO:root:purchase hr and ndcg @1 : 0.170921, 0.170921
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 5: 8370.600000
+INFO:root:clicks hr ndcg @ 5 : 0.296475, 0.203433
+INFO:root:purchase hr and ndcg @5 : 0.426846, 0.304766
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 10: 10971.000000
+INFO:root:clicks hr ndcg @ 10 : 0.392541, 0.234612
+INFO:root:purchase hr and ndcg @10 : 0.539654, 0.341086
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 20: 13169.600000
+INFO:root:clicks hr ndcg @ 20 : 0.472326, 0.254854
+INFO:root:purchase hr and ndcg @20 : 0.642206, 0.367067
+INFO:root:#############################################################
+INFO:root:the loss in 10200th batch is: 1.249275
+INFO:root:the loss in 10400th batch is: 1.162514
+INFO:root:the loss in 10600th batch is: 1.136113
+INFO:root:the loss in 10800th batch is: 1.236444
+INFO:root:the loss in 11000th batch is: 1.111347
+INFO:root:the loss in 11200th batch is: 1.275565
+INFO:root:the loss in 11400th batch is: 1.212126
+INFO:root:the loss in 11600th batch is: 1.241511
+INFO:root:the loss in 11800th batch is: 1.313482
+INFO:root:the loss in 12000th batch is: 1.222275
+INFO:root:#############################################################
+INFO:root:total clicks: 109581, total purchase:4388
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 1: 3056.800000
+INFO:root:clicks hr ndcg @ 1 : 0.106624, 0.106624
+INFO:root:purchase hr and ndcg @1 : 0.164084, 0.164084
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 5: 8459.200000
+INFO:root:clicks hr ndcg @ 5 : 0.299422, 0.205896
+INFO:root:purchase hr and ndcg @5 : 0.432315, 0.303867
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 10: 11123.600000
+INFO:root:clicks hr ndcg @ 10 : 0.395716, 0.237102
+INFO:root:purchase hr and ndcg @10 : 0.558569, 0.344698
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 20: 13293.000000
+INFO:root:clicks hr ndcg @ 20 : 0.476360, 0.257562
+INFO:root:purchase hr and ndcg @20 : 0.650182, 0.367877
+INFO:root:#############################################################
+INFO:root:the loss in 12200th batch is: 1.207859
+INFO:root:the loss in 12400th batch is: 1.142415
+INFO:root:the loss in 12600th batch is: 1.193912
+INFO:root:the loss in 12800th batch is: 1.321666
+INFO:root:the loss in 13000th batch is: 1.130821
+INFO:root:the loss in 13200th batch is: 1.088357
+INFO:root:the loss in 13400th batch is: 1.202676
+INFO:root:the loss in 13600th batch is: 1.228703
+INFO:root:the loss in 13800th batch is: 1.163996
+INFO:root:the loss in 14000th batch is: 1.232471
+INFO:root:#############################################################
+INFO:root:total clicks: 109581, total purchase:4388
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 1: 3007.800000
+INFO:root:clicks hr ndcg @ 1 : 0.105438, 0.105438
+INFO:root:purchase hr and ndcg @1 : 0.158842, 0.158842
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 5: 8352.000000
+INFO:root:clicks hr ndcg @ 5 : 0.296767, 0.203762
+INFO:root:purchase hr and ndcg @5 : 0.421149, 0.295090
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 10: 10992.200000
+INFO:root:clicks hr ndcg @ 10 : 0.392094, 0.234672
+INFO:root:purchase hr and ndcg @10 : 0.546718, 0.335952
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 20: 13170.600000
+INFO:root:clicks hr ndcg @ 20 : 0.473467, 0.255296
+INFO:root:purchase hr and ndcg @20 : 0.636737, 0.358755
+INFO:root:#############################################################
+INFO:root:the loss in 14200th batch is: 1.249482
+INFO:root:the loss in 14400th batch is: 1.087607
+INFO:root:the loss in 14600th batch is: 1.196240
+INFO:root:the loss in 14800th batch is: 1.268278
+INFO:root:the loss in 15000th batch is: 1.322095
+INFO:root:the loss in 15200th batch is: 1.197077
+INFO:root:the loss in 15400th batch is: 1.232828
+INFO:root:the loss in 15600th batch is: 1.227642
+INFO:root:the loss in 15800th batch is: 1.247670
+INFO:root:the loss in 16000th batch is: 1.189770
+INFO:root:#############################################################
+INFO:root:total clicks: 109581, total purchase:4388
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 1: 3055.600000
+INFO:root:clicks hr ndcg @ 1 : 0.106615, 0.106615
+INFO:root:purchase hr and ndcg @1 : 0.163856, 0.163856
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 5: 8452.200000
+INFO:root:clicks hr ndcg @ 5 : 0.300335, 0.206554
+INFO:root:purchase hr and ndcg @5 : 0.426162, 0.299927
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 10: 11045.400000
+INFO:root:clicks hr ndcg @ 10 : 0.395799, 0.237572
+INFO:root:purchase hr and ndcg @10 : 0.540337, 0.337026
+INFO:root:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO:root:cumulative reward @ 20: 13209.000000
+INFO:root:clicks hr ndcg @ 20 : 0.475767, 0.257859
+INFO:root:purchase hr and ndcg @20 : 0.634002, 0.360751
+INFO:root:#############################################################
+INFO:root:the loss in 16200th batch is: 1.192041
+INFO:root:the loss in 16400th batch is: 1.299414
+INFO:root:the loss in 16600th batch is: 1.144317
